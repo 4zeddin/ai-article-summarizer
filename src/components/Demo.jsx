@@ -6,6 +6,9 @@ const Demo = () => {
     url: "",
     summary: "",
   });
+  const handelSubmit = async (e) =>{
+    alert("sumb")
+  }
   
 
   return (
@@ -14,7 +17,7 @@ const Demo = () => {
       <div className="flex flex-col w-full gap-2">
         <form
           className="relative flex justify-center items-center"
-          onSubmit={(e)=>e.preventDefault}
+          onSubmit={handelSubmit}
         >
           <img
             src={linkIcon}
