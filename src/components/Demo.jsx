@@ -11,10 +11,16 @@ const Demo = () => {
 
   const handelSubmit = async (e) => {
     e.preventDefault();
-    const { data } = await getSummary({ articleUrl: article.url });
-    if (data?.summary) {
-      const newArticle = { ...article, summary: data.summary };
-      setArticle = newArticle;
+    try {
+      const { data } = await getSummary({ articleUrl: article.url });
+      if (data?.summary) {
+        const newArticle = { ...article, summary: data.summary };
+        setArticle(newArticle);
+        console.log("ssss");
+        console.log(newArticle);
+      }
+    } catch (error) {
+      console.error("An error occurred while fetching the summary:", error);
     }
   };
 
@@ -52,6 +58,8 @@ const Demo = () => {
       </div>
 
       {/* Display Result */}
+      <p>{article.url}</p>
+      <p>{article.summary}</p>
     </section>
   );
 };
