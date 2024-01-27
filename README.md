@@ -1,3 +1,6 @@
+🔗 Live Demo:
+[[https://657f265258f3e60db895b646--tiny-smakager-f3dfcc.netlify.app/](https://65b4f6d2f1781090cda95aa6--merry-choux-38cd80.netlify.app/)]
+
 📊 Features:
 
 - Modern User Interface: A modern and user-friendly interface, offering an intuitive experience for users.
@@ -12,9 +15,6 @@
 - RTK query
 - Tailwind CSS
 - OpenAi api
-
-🔗 Live Demo:
-[[https://657f265258f3e60db895b646--tiny-smakager-f3dfcc.netlify.app/](https://65b4f6d2f1781090cda95aa6--merry-choux-38cd80.netlify.app/)]
 
 📬 Contact:
 [azeddinaitwaalla@gmail.com].
